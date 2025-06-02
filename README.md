@@ -19,11 +19,11 @@ npm install
 ```
 
 ### 3. Run test
-####window
+####macos
 ```bash
 envName=dev npx playwright test --project=chromium tests/api/booking.spec.ts
 ```
-####macos
+####window
 ```cmd
 set envName=dev && npx playwright test --project=chromium tests/api/booking.spec.ts
 ```
